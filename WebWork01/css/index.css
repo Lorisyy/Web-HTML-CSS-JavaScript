@@ -1,0 +1,48 @@
+body{
+    background-image: url(../imgs/silverware.jpg);
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-family: "Century Gothic",Future,Verdana,sans-serif;
+    color: darkkhaki;
+}
+
+p{
+    margin-left: 15%;
+    line-height: 160%;
+    font-family: Georgia, Garamond, serif;
+}
+
+.photos{
+    margin-left: 40%;
+    margin-right: 25px;
+
+}
+
+a{
+    font-size: 120%;
+    border: 5px inset #BCB0A1;
+    background-color: #985836;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+b{
+    margin-left: 40%;
+    font-size: 120%;
+    border: 5px inset #BCB0A1;
+    background-color: #985836;
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    border: 3px inset #EADFCE;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    box-shadow: 5px 5px 3px #888;
+}
