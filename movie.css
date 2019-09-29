@@ -1,0 +1,149 @@
+html,body{
+        margin: 0;
+        padding: 0;
+	    background-image: url(background.png);
+        background-attachment: fixed;
+
+}
+
+h1{
+    text-align:center;
+    font-weight:bold;
+    font-size: 24pt;
+    font-family:Tahoma, Verdana;
+}
+.banner{
+    background-position: top;
+    background-image: url(picture/bannerbackground.png);
+    background-repeat:repeat-x;
+    height:50px;
+}
+.banner img{
+    display: block;
+    background-position: top;
+}
+#main{
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border:4px gray solid;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+#list img{
+    display: block;
+}
+#list{
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+}
+#list dt{
+    font-family: Arial;
+    padding-top: 1em;
+    font-weight: bold;
+}
+#list dl{
+    margin: 0px;
+    font-size: 8pt;
+    font-family: Arial;
+    padding-left: 10px;
+}
+#second_topic img{
+    float: left;
+    height: 83px;
+    vertical-align: text-bottom;
+}
+#second_topic{
+    background-image: url(picture/rottenbackground.png);
+    background-repeat: repeat-x;
+    width: 550px;
+    margin-left:0;
+    height: 83px;
+    overflow: hidden;
+
+}
+#second_topic div{
+    padding-top: 5px
+}
+.ratio{
+    font-size: 48pt;
+    font-weight:bold;
+    color: red;
+    position: relative;
+}
+.total_reviews{
+    font-size: 8pt;
+    color: white;
+    position: relative;
+}
+#left{
+    width: 550px;
+}
+#left1{
+	vertical-align:top;
+    float: left;
+    width: 45%;
+    margin-left: 2%;
+    padding-bottom: 4%;
+    overflow: auto;
+}
+
+#left2{
+	vertical-align:top;
+    float: right;
+    width: 45%;
+    margin-right: 2%;
+    padding-bottom: 5%;
+}
+#link{
+    border: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.comments{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color:  #E1D697;
+    border: 2px gray solid;
+    padding: 8px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.commets_from{
+    padding-bottom: 3em;
+    overflow: hidden;
+}
+.comments_from span{
+    overflow: hidden;
+    font-style: italic;
+}
+#left1 img,#left2 img{
+    float: left;
+    padding-right: 5px;
+}
+#page{
+    vertical-align: bottom;
+    margin: 0;
+    padding: 5px;
+    clear: right;
+    text-align: center;
+    background-color: #A2B964;
+}
+
+
+
+#pages{
+    
+    text-align: center;
+    padding: 0px;
+    background-color: #A2B964;
+
+
+}
+a{
+	margin-right: 0px;
+}
