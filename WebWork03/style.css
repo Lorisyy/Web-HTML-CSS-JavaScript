@@ -1,0 +1,227 @@
+ul {
+    list-style-type: none;
+    /*Removing dots before the tags*/
+}
+
+#bottom-positioner {
+    width:560px;
+    height: 900px;
+    overflow: hidden;
+    /*Position*/
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+}
+
+#info-bar {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0; 
+    transition: all 450ms cubic-bezier(0.5,0,1,1) 250ms;
+    overflow: hidden;
+}
+#button:hover #info-bar{
+    background-color:#666666;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 42%;
+    bottom: 15%;
+    opacity: 1;
+}
+
+#button:hover .user span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+}
+.user {
+    position: absolute;
+    top:10px;
+}
+.user span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0;
+    color: white;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+
+#button:hover .comment span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 35px;
+    color: white;
+    opacity: 1;
+}
+.comment {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+.comment span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0px;
+    color: #FFFFFF;
+    transition: all 1s linear 250ms;
+    opacity: 1;
+}
+
+.comment-img{
+	position: middle;
+}
+
+.mine {
+    display: inline-block;
+}
+.mine span {
+    position: absolute;
+    display: inline-block;
+    margin-left: 5px;
+    color: #3CC101;
+    bottom: 7px;
+}
+.posted {
+    position: absolute;
+    top:75px;
+    left: 20px;
+}
+.like {
+    position: absolute;
+    top: 75px;
+    left:60px;
+}
+.button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.mask {
+    background: url(assets/images/nomask.png) no-repeat 50% 50% #666666;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    /*transition that has 150ms' difference, looks like Chinese fan.*/
+    transition: all 600ms cubic-bezier(0.5,0,1,1);
+    background-size: 0%;
+}
+#button:hover .mask {
+    background: url(assets/images/nomask.png) no-repeat 50% 50% #666666;
+    background-size: 50%;
+    left: 37%;
+    bottom: 14%;
+    opacity: 1;
+}
+
+.history {
+    background: url(assets/images/history.png) no-repeat 50% 50% #666666;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    transition: 750ms cubic-bezier(0.5,0,1,1);
+    background-size: 0%;
+}
+#button:hover .history {
+    background: url(assets/images/history.png) no-repeat 50% 50% #666666;
+    background-size: 50%;
+    left: 35%;
+    bottom: 9%;
+    opacity: 1;
+}
+
+.message {
+    background: url(assets/images/message.png) no-repeat 50% 50% #666666;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    transition: all 900ms cubic-bezier(0.5,0,1,1);
+    background-size: 0%;
+}
+#button:hover .message {
+    background: url(assets/images/message.png) no-repeat 50% 50% #666666;
+    background-size: 50%;
+    left: 38%;
+    bottom: 4%;
+    opacity: 1;
+}
+/*Unread tags for element 'message'*/
+.unread {
+    display: inline-block;
+    position: absolute;
+    left:24px;
+    bottom: 20px;
+    background-color: #FF0000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px; 
+    /* In center of vertical direction */
+    text-align: center;
+    transition: all 1s ease-out 250ms;
+    color: #FFFFFF;
+}
+.setting {
+    background: url(assets/images/setting.png) no-repeat 50% 50% #666666;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    /*Using Bezier Curve that analyzes the transition.*/
+    transition: all 1050ms cubic-bezier(0.5,0,1,1);
+    background-size: 0%;
+}
+#button:hover .setting {
+    background: url(assets/images/setting.png) no-repeat 50% 50% #666666;
+    background-size: 50%;
+    left: 46%;
+    bottom: 1%;
+    opacity: 1;
+}
+
+.sign {
+    background: url(assets/images/signin.png) no-repeat 50% 50% #666666;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    transition: all 1200ms cubic-bezier(0.5,0,1,1);
+    background-size: 0%;
+}
+#button:hover .sign {
+    background: url(assets/images/signin.png) no-repeat 50% 50% #666666;
+    background-size: 50%;
+    left: 56%;
+    bottom: 2%;
+    opacity: 1;
+}
+
+.original-canvas {
+    position: absolute;
+    background: url(assets/images/atplus_white.png) no-repeat 50% 50% #7171C6;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    left:50%;
+    bottom: 9%;
+    opacity: 0.75;
+}
+#button:hover .original-canvas {
+    background: url(assets/images/atplus_green.png) no-repeat 50% 50% rgba(48, 63, 159, 1);
+    background-size: 70%;
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
