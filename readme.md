@@ -1,7 +1,7 @@
 ## Language: HTML-CSS-JavaScript
 This is a repository for homework of web2.0 programming.
 
-## List of Works 
+## Works List
 Those work topics with (*) are self-designed :)  
 Have fun!  
 ps: There might be some missing imgs that I did not upload on the github. (Considering copyrights...)  
