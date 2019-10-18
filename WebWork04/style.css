@@ -1,0 +1,71 @@
+
+.whole {
+    width: 326px;
+    height: 460px;
+    margin-left: 56%;
+    margin-top:6%;
+    /*background-color:rgb(233, 233, 233);*/
+    border-radius: 5px;
+    box-shadow: 0 2px 15px black;
+    overflow: hidden;
+    background: linear-gradient(to bottom, grey 0%,rgb(233,233,233) 100%);
+}
+.whole .screen {
+    position: relative;
+    width: 326px;
+    height: 100px;
+    background-color: #96a4c2;
+    border-radius: 5px;
+    box-shadow: inherit;
+}
+.whole .screen>p {
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+    width: 236px;
+    text-align: center;
+    word-break: break-all;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 45px;
+}
+.whole .screen .input_screen{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 35px;
+   background-color: inherit;
+   border: unset;
+   color: snow;
+}
+.whole .calcultor_row_buttons {
+    margin: 0 23px;
+}
+button {
+    cursor: pointer;
+    width: 60px;
+    height: 45px;
+    margin: 20px 2px 0;
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2b2f5b;
+    outline: none;
+}
+button::selection {
+    color: #fff;
+}
+button:active {
+    box-shadow: 0 0 5px 5px lightcyan;
+}
+.buttons {
+    border-radius: 8px;
+    
+}
+#bottom_last{
+    margin-top: 20px;
+    text-align: center;
+    height: 20px;
+    text-anchor: end;
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-style: initial;
+}
