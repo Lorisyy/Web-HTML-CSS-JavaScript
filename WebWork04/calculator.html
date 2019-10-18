@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Polaris Calculator</title>
+    <meta charset="utf-8">
+
+    <link rel="icon" sizes="196x196" href="img/calculator.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="calculator.js"></script>
+</head>
+<body background="img/ShastaStars.jpg">
+    <div class="whole">
+        <div id="heading">
+            <p id="title"></p>
+        </div>
+        <div class="screen">
+            <input type="text" class="input_screen" value="" id="result" disabled="disabled">
+        </div>
+        <!--
+            [         ]
+            7  8  9  /
+            4  5  6  *
+            1  2  3  -
+            0  .  ←  +
+            (  ) CE  =
+        -->
+        <div class="buttons">
+            <div class="calcultor_row_buttons">
+                <button onclick="command(7);">7</button>
+                <button onclick="command(8);">8</button>
+                <button onclick="command(9);">9</button>
+                <button onclick="command('/');">÷</button>
+            </div>
+            <div class="calcultor_row_buttons">
+                <button onclick="command(4);">4</button>
+                <button onclick="command(5);">5</button>
+                <button onclick="command(6);">6</button>
+                <button onclick="command('*');">x</button>
+            </div>
+            <div class="calcultor_row_buttons">
+                <button onclick="command(1);">1</button>
+                <button onclick="command(2);">2</button>
+                <button onclick="command(3);">3</button>
+                <button onclick="command('-');">-</button>
+            </div>
+            <div class="calcultor_row_buttons">
+                <button onclick="command(0);">0</button>
+                <button onclick="command('.');">.</button>
+                <button onclick="backspace();">←</button>
+                <button onclick="command('+');">+</button>
+            </div>
+            <div class="calcultor_row_buttons">
+                <button onclick="command('(');">(</button>
+                <button onclick="command(')');">)</button>
+                <button onclick="clear_display();">CE</button>
+                <!--This returns the very end result:result()-->
+                <button onclick="result();">=</button>
+            </div>
+            <div class="calcultor_row_buttons">
+                <p></p>
+                <p></p>
+            </div>
+            <div id = "bottom_last">
+                <span>"Polaris knows the answer."</span>
+            </div>
+        </div>
+    
+        
+    </div>
+</body>
+</html>
+    
