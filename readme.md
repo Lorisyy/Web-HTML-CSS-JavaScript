@@ -4,6 +4,7 @@ This is a repository for homework of web2.0 programming.
 ## List of Works 
 Those work topics with (*) are self-designed :)  
 Have fun!  
+ps: There might be some missing imgs that I did not upload on the github. (Considering copyrights...)  
 
 ### First Work(*):
 A static web page DESIGNED for Grandma's Pie®.  
