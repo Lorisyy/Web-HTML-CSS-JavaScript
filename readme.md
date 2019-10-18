@@ -21,7 +21,7 @@ A ring menu that you will *fall in love with*.
 
 ### Fourth Work(*):
 Here I started [JavaScript](https://en.wikipedia.org/wiki/JavaScript).This is awesome programming language, but have a little things to do with Java (also a popular programming language worldwide).  
-**This is also a calculator that you can use in basic math area, more than daily use :)  **
+**This is also a calculator that you can use in basic math area, more than daily use :)**
 
 [Polaris Calculator](https://lorisyy.github.io/Web-HTML-CSS-JavaScript/WebWork04/calculator.html)  
 ![Preview img](https://lorisyy.github.io/Web-HTML-CSS-JavaScript/WebWork04/preview.jpg)
