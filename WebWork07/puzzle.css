@@ -1,0 +1,166 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    position:default;
+    padding: 0;
+}
+
+#gameInfo {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 20px;
+    font-family: Courier, sans-serif;
+}
+
+#main_pic {
+    position: relative;
+    margin-bottom: 50px; 
+    left: calc(50% - 180px);
+    width: 360px;
+    height: 360px;
+}
+
+#restart {
+    margin: 0 auto;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    box-shadow: 3px 4px 15px darkgray;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#time {
+	margin: 0 auto;
+    width: 120px;
+    height: 40px;
+    box-shadow: 3px 4px 15px goldenrod;
+    font-size: 18px;
+}
+#time_align{
+    font-family: Century Gothic;
+    font-size: 18px;
+}
+
+.picture_0 {
+	background: url("img/panda.jpg") no-repeat;
+    position: absolute;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 1px;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+.picture_0:hover {
+	box-shadow: 3px 0px 15px black;
+    transition: 0.2s;
+}
+
+#position_0, #position_1, #position_2, #position_3 {
+    top: 0;
+}
+
+#position_4, #position_5, #position_6, #position_7 {
+    top: 25%;
+}
+
+#position_8, #position_9, #position_10, #position_11 {
+    top: 50%;
+}
+
+#position_12, #position_13, #position_14, #position_15 {
+    top: 75%;
+}
+
+#position_0, #position_4, #position_8, #position_12 {
+    left: 0;
+}
+
+#position_1, #position_5, #position_9, #position_13 {
+    left: 25%;
+}
+
+#position_2, #position_6, #position_10, #position_14 {
+    left: 50%;
+}
+
+#position_3, #position_7, #position_11, #position_15 {
+    left: 75%;
+}
+
+.part_0 {
+    background-position: 0 0;
+}
+
+.part_1 {
+    background-position: -90px 0;
+}
+
+.part_2 {
+    background-position: -180px 0;
+}
+
+.part_3 {
+    background-position: -270px 0;
+}
+
+.part_4 {
+    background-position: 0 -90px;
+}
+
+.part_5 {
+    background-position: -90px -90px;
+}
+
+.part_6 {
+    background-position: -180px -90px;
+}
+
+.part_7 {
+    background-position: -270px -90px;  
+}
+
+.part_8 {
+    background-position: 0 -180px;
+}
+
+.part_9 {
+    background-position: -90px -180px;
+}
+
+.part_10 {
+    background-position: -180px -180px; 
+}
+
+.part_11 {
+    background-position: -270px -180px;
+}
+
+.part_12 {
+    background-position: 0 -270px;
+}
+
+.part_13 {
+    background-position: -90px -270px;
+}
+
+.part_14 {
+    background-position: -180px -270px; 
+}
+
+.part_15 {
+    background-image: none;
+    background-color: gray;
+}
