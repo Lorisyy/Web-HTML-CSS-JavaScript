@@ -53,7 +53,7 @@ body {
 }
 
 .picture_0 {
-	background: url("img/panda.jpg") no-repeat;
+	background: url("panda.jpg") no-repeat;
     position: absolute;
     display: inline-block;
     width: 90px;
