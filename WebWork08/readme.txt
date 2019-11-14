@@ -1,0 +1,1 @@
+使用jQuery和lodash之前，LoC分别是60行、
