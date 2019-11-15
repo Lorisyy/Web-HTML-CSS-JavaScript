@@ -1,4 +1,3 @@
-
 /**
  * @license
  * lodash 3.10.1 (Custom Build) <https://lodash.com/>
@@ -10254,7 +10253,7 @@
      * @returns {string} Returns the deburred string.
      * @example
      *
-     * _.deburr('déjà vu');
+     * _.deburr('d茅j脿 vu');
      * // => 'deja vu'
      */
     function deburr(string) {
