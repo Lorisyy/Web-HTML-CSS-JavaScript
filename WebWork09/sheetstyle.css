@@ -1,0 +1,55 @@
+
+#container{
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+	font-family:  "Century Gothic", Arial, sans-serif;
+	color: rgb(70, 70, 70);
+}
+#details{
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+	font-size: 20px;
+	font-family:  "Century Gothic", Arial, sans-serif;
+	color: black;
+}
+
+#pageForm:hover
+#reset:hover, #submit:hover{background-color: black;}
+
+#studentId, #phone, #email{
+	position: relative;
+	left: 10px;
+}
+
+#pageForm button{
+	position: left;
+	margin-left: 16.8px;
+	line-height: 30px;
+	background-color: rgb(67, 30, 116);
+	border-block-color: none;
+	color: white;
+}
+#signInForm input{
+	border-radius: 10px;
+}
+
+.red{
+	color: red !important;
+	font-weight: bold;
+}
+
+
+#reset, #submit{
+	margin: default;
+	position: relative;
+	left: 90px;
+}
+
+#hint{
+	display: none;
+	color: goldenrod;
+	float: center;
+	position: relative;
+}

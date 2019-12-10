@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="sheetstyle.css">
+        <link rel="icon" sizes="196x196" href="opportunity.png">
+    </head>
+    <body background="bg.jpg">
+        <div id="container">
+            <h1>Sign up</h1>
+            <div id="pageForm">
+            <h3>Don't have an account? Sign up NOW!</h3>
+            <form method="POST" id="signInForm">
+					<label>用户名: <input type="text" name="username" id="username" autocomplete="off"></label>
+					<p >您输入的用户名长度应为6~18位，由英文字母、数字或下划线组成，且必须以英文字母开头</p>
+					<label>学号: <input type="text" name="studentId" id="studentId" autocomplete="off"></label>
+					<p >学号为8位数字，且不能以0开头</p>
+					<label>电话: <input type="text" name="phone" id="phone" autocomplete="off"></label>
+					<p >电话为11位中国大陆电话号码</p>
+					<label>邮箱: <input type="text" name="email" id="email" autocomplete="on"></label>
+					<p >邮箱应满足xx@yy.zz格式</p>
+					<button type="reset" name="reset" id="reset">重置</button>
+					<button type="submit" name="submit" id="submit">提交</button>
+				</form>
+				<div id="hint">Welcome!</div>
+			</div>
+		</div>
+	</body>
+</html>
