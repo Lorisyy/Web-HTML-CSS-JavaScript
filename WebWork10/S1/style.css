@@ -1,0 +1,252 @@
+/*
+*宿永烨 
+*18342107
+*/
+html, body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+  overflow:hidden;
+  display: default;
+}
+
+span{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+}
+
+/*The hover range*/
+#bottom-positioner {
+    width: 4px;
+    height: 4px;
+    position: default;
+    bottom: 126px;
+    left: calc(50% - 2px);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition:cubic-bezier();
+}
+
+#bottom-positioner:hover{
+  position: fixed;
+  bottom: 0px;
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 300px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+/*The @ button*/
+#at-plus-container{
+	position:fixed;
+	width: 30px;
+	height:30px;
+	left:50%;
+	bottom:100px;
+  left:calc(50% - 15px);
+  overflow:hidden;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+/*The background of @ button*/
+#button .apb{
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #989FCF;
+  bottom: 100px;
+  left: calc(50% - 15px);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+#bottom-positioner:hover #button .apb{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 90px;
+  left: calc(50% - 25px);
+  border-radius: 50%;
+  background-color: rgba(48,63,159,1);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+/*The ring menu*/
+#control-ring-container{
+  width:220px;
+  height:220px;
+  position:fixed;
+  bottom:0px;
+  left:calc(50% - 110px);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+} 
+
+/*The @ button after cursor hover*/
+#button .icon{
+  background-image: url("assets/images/atplus_white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 15px;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+#bottom-positioner:hover #button .icon{
+  background-image: url("assets/images/atplus_green.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 30px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+#control-ring li{
+  border-radius: 50%;
+  background-color: #9C9C9C;
+  background-repeat: no-repeat;
+  background-position: 0%, -50%;
+  background-size: 18px 18px;
+  position: absolute;
+  top: 70px;
+  left: 90px;
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+#bottom-positioner:hover #control-ring li{
+  position: absolute;
+  color:white;
+  top: 70px;
+  left: 90px;
+}
+
+
+#info-bar .op{
+  margin-left:3px;
+  display:inline-block;
+  width:45%;
+  color:rgb(48,63,159,1);
+}
+
+#info-bar{
+  font-size: 30px;
+  color: #00FFCC;
+  text-align: center;
+  line-height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 23px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #9C9C9C;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+.info{
+  margin-top: 20px;
+}
+
+#bottom-positioner:hover #control-ring{
+  
+  text-align: center;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+#bottom-positioner:hover #control-ring li:nth-child(1){
+  color: #00FFCC;
+  margin-top: -40px;
+  margin-left: -64px;
+}
+
+#bottom-positioner:hover #control-ring li:nth-child(2){
+  color: #00FFCC;
+  margin-top: 1px;
+  margin-left: -75px;
+}
+
+#bottom-positioner:hover #control-ring li:nth-child(3){
+  color: #00FFCC;
+  margin-top: 44px;
+  margin-left: -62px;
+}
+
+/*The unread red circle*/
+#control-ring .unread{
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-left: 0px;
+  margin-top: -2px;
+  text-align: center;
+  color: #E8D6DC;
+  font-size: 10pt;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
+
+#bottom-positioner:hover #control-ring li:nth-child(4){
+  color: #00FFCC;
+  margin-top: 70px;
+  margin-left: -23px;
+}
+
+#bottom-positioner:hover #control-ring li:nth-child(5){
+  color: #00FFCC;
+  margin-top: 68px;
+  margin-left: 20px;
+}
+
+#bottom-positioner:hover #info-bar{
+  position: absolute;
+  top: 10px;
+  left: 38px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #9C9C9C;
+  opacity: 1;
+  transition:cubic-bezier();
+  -o-transition: 0.3s;
+  /*transition: 0.3s*/;
+}
+
+#bottom-positioner:hover .button {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition:cubic-bezier();
+}
