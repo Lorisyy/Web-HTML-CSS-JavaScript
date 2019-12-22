@@ -1,7 +1,4 @@
-/*
-*宿永烨 
-*18342107
-*/
+
 var stop = 0;
 var array = new Array(6);
 var sum = 0;
