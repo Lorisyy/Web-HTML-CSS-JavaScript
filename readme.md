@@ -1,6 +1,7 @@
 ## Language: HTML-CSS-JavaScript
 This is a repository for homework of web2.0 programming.
-
+## Resume
+[Su Yongye](https://lorisyy.github.io/Web-HTML-CSS-JavaScript/Resume.pdf)
 ## Works List
 Those work topics with (*) are self-designed :)  
 Have fun!  
