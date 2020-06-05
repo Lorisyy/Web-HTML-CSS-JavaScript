@@ -33,6 +33,9 @@ Here I started [JavaScript](https://en.wikipedia.org/wiki/JavaScript).This is aw
 This is a html [maze game](https://lorisyy.github.io/Web-HTML-CSS-JavaScript/WebWork05/maze.html).    
 You don't need to update or download flashplayer to play it, using your mouse or touch-console.  
 This is another game designed as [Whac-A-Mole](https://lorisyy.github.io/Web-HTML-CSS-JavaScript/WebWork05/mole.html) 
+
+### A WEChat APP
+![QRcode](https://github.com/zzm99/Mini-App-for-her-2/blob/master/erweima.jpg)
 ### To be continued...
 
 
